@@ -4,6 +4,8 @@
 
 #ifndef HW7_SHAPE_H
 #define HW7_SHAPE_H
+
+#include <ostream>
 #include "Point.h"
 
 class Shape {
@@ -14,6 +16,12 @@ public:
     Shape(int numOfPoints);
     Shape(Shape const &);
     Shape(Shape&&);
+
+    friend std::ostream &operator<<(std::ostream &os, const Shape &shape);
+
+    virtual double area() const=0;
+    virtual bool isSpecial()=0;
+    virtual void printSpecial() const=0;
 
 
 };
