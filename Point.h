@@ -6,6 +6,8 @@
 #define HW7_POINT_H
 
 
+#include <istream>
+
 class Point
 {
     int x;
@@ -23,8 +25,8 @@ public:
     int gety();
 
     float distance(Point);//Calculate distance between two points
-    bool operator==(Point);//An operator that calculates inequality between two points
-
+    /*לא היה בתרגיל 2*/bool operator==(Point);//An operator that calculates inequality between two points
+    friend std::istream &operator>>(std::istream&, Point&);
 };
 
 
