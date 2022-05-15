@@ -9,13 +9,15 @@
 #include "Point.h"
 
 class Shape {
+protected:
     int numOfPoints;
-    Point* points[];
+    Point* points;
 public:
     Shape();
-    Shape(int numOfPoints);
+    explicit Shape(int numOfPoints);
     Shape(Shape const &);
     Shape(Shape&&);
+    virtual ~Shape();
 
     friend std::ostream &operator<<(std::ostream &os, const Shape &shape);
 
@@ -23,8 +25,6 @@ public:
     virtual bool isSpecial()=0;
     virtual void printSpecial() const=0;
 
-
 };
-
 
 #endif //HW7_SHAPE_H
