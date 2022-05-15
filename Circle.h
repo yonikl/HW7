@@ -12,10 +12,11 @@ class Circle : public Shape{
     float radius;
 public:
     explicit Circle(float);
+    //Circle(Circle&);חסר בנאי העתקה
 
-
-    bool isSpecial() override;
+    bool isSpecial() const;
     void printSpecial() const;
+    double area() const;
 };
 
 

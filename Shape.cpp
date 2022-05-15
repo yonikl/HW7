@@ -17,6 +17,7 @@ Shape::Shape(int num){
 }
 
 Shape::Shape(const Shape &a) {
+    cout << "C\n";
     numOfPoints = a.numOfPoints;
     points = new Point[a.numOfPoints];
     for (int i = 0; i < a.numOfPoints; ++i) {
