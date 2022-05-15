@@ -22,7 +22,7 @@ public:
     friend std::ostream &operator<<(std::ostream &os, const Shape &shape);
 
     virtual double area() const=0;
-    virtual bool isSpecial()=0;
+    virtual bool isSpecial() const=0;
     virtual void printSpecial() const=0;
 
 };
