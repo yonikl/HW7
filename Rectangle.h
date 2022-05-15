@@ -8,7 +8,7 @@
 
 class Rectangle : Shape {
     Rectangle();
-    bool isSpecial() const ;
+    bool isSpecial() const override ;
     void printSpecial() const override;
     double area() const override;
 
