@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/yehud/CLionProjects/exercise 7 question 1
+# Install script for directory: C:/Users/Yoni/CLionProjects/HW7
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/yehud/CLionProjects/exercise 7 question 1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Yoni/CLionProjects/HW7/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
