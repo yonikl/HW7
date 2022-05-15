@@ -79,6 +79,12 @@ build CMakeFiles/HW7.dir/Triangle.cpp.obj: CXX_COMPILER__HW7_Debug C$:/Users/Yon
   OBJECT_DIR = CMakeFiles\HW7.dir
   OBJECT_FILE_DIR = CMakeFiles\HW7.dir
 
+build CMakeFiles/HW7.dir/Rectangle.cpp.obj: CXX_COMPILER__HW7_Debug C$:/Users/Yoni/CLionProjects/HW7/Rectangle.cpp || cmake_object_order_depends_target_HW7
+  DEP_FILE = CMakeFiles\HW7.dir\Rectangle.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\HW7.dir
+  OBJECT_FILE_DIR = CMakeFiles\HW7.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target HW7
@@ -87,7 +93,7 @@ build CMakeFiles/HW7.dir/Triangle.cpp.obj: CXX_COMPILER__HW7_Debug C$:/Users/Yon
 #############################################
 # Link the executable HW7.exe
 
-build HW7.exe: CXX_EXECUTABLE_LINKER__HW7_Debug CMakeFiles/HW7.dir/main.cpp.obj CMakeFiles/HW7.dir/Point.cpp.obj CMakeFiles/HW7.dir/Shape.cpp.obj CMakeFiles/HW7.dir/Circle.cpp.obj CMakeFiles/HW7.dir/Triangle.cpp.obj
+build HW7.exe: CXX_EXECUTABLE_LINKER__HW7_Debug CMakeFiles/HW7.dir/main.cpp.obj CMakeFiles/HW7.dir/Point.cpp.obj CMakeFiles/HW7.dir/Shape.cpp.obj CMakeFiles/HW7.dir/Circle.cpp.obj CMakeFiles/HW7.dir/Triangle.cpp.obj CMakeFiles/HW7.dir/Rectangle.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HW7.dir
